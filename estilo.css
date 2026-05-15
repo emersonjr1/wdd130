@@ -1,0 +1,26 @@
+main {
+    width: 840px ;
+}
+main img {
+    width: 150px;
+    height: auto;
+}
+
+aside {
+    width: 840px;
+
+}
+
+aside img {
+    width: 150px;
+    height: auto;
+}
+p {
+    padding: 0;
+}
+
+footer { 
+    margin-top: 16px;
+    border: 1px solid #000 ;
+    text-align: center;
+}
