@@ -1,3 +1,10 @@
+:root {
+    --tamanho-width: 200px;
+    --border-1s-black: 1px solid black;
+    --text-color: steelblue;
+}
+
+
 *{
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +16,7 @@ main {
     max-width: 840px ;
 }
 main img {
-    width: 150px;
+    width: var(--tamanho-width);
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -40,7 +47,7 @@ nav a {
 
 
 h1 {
-    color: steelblue;
+    color: var(--text-color);
 }
 
 
@@ -48,7 +55,7 @@ h1 {
 aside {
     width: 20rem;
     margin: 1rm;
-    border: 1px solid black;
+    border: var(--border-1s-black);
     padding: 1rm;
     background-color: #eee;
     color: #333;
@@ -66,7 +73,8 @@ p {
 }
 
 footer { 
+    color: var(--text-color);
     margin-top: 15px;
-    border-top: 1px solid #000 ;
+    border-top: var(--border-1s-black) ;
     text-align: center;
 }
