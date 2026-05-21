@@ -4,7 +4,7 @@
 }
 
 main {
-    width: 840px ;
+    max-width: 840px ;
 }
 main img {
     width: 150px;
@@ -26,6 +26,7 @@ body{
 
 nav {
     background-color: steelblue;
+    padding: 2px;
 }
 
 nav a {
@@ -64,6 +65,6 @@ p {
 
 footer { 
     margin-top: 15px;
-    border: 1px solid #000 ;
+    border-top: 1px solid #000 ;
     text-align: center;
 }
