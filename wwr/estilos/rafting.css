@@ -63,7 +63,7 @@ h1 {
 article {
     position: absolute;
     background-color: var(--cor-destaque2);
-    top: 285px ;
+    top: 255px ;
 }
 
 .hero article img{
