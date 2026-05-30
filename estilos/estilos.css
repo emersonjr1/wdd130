@@ -118,7 +118,7 @@ footer {
 .grid{
     display: grid;
     align-items: start;
-    grid-template-columns: 13rem 1fr;
+    grid-template-columns: 10rem 1fr;
     gap: 20px;
 
 }
