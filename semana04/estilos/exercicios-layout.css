@@ -24,17 +24,23 @@ div {
 .flex {
     background-color: #aba;
     /* escreva declaracoes aqui */
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid {
     background-color: #abb;
     /* escreva declaracoes aqui */
-
+    display: grid;
+    place-items: center;
 }
 
 .container2 {
     /* escreva declaracoes aqui */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
@@ -43,17 +49,26 @@ div {
     height: 100px;
 }
 
-.container3 {
-    /* escreva declaracoes aqui */
 
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem; /* Cria o espaçamento perfeito entre as linhas e colunas */
+    background-color: #eee; /* Opcional: uma cor de fundo para a "tabela" */
+    padding: 0.5rem;
 }
 
-.colunas-3 {
-    /* escreva declaracoes aqui */
-
+.col3 {
+    grid-column: span 3;
+    background-color: #789; /* Cor de destaque para o Título */
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
 }
 
 .tres {
-    margin: .25rem;
+    /* Removi a margin daqui, pois o 'gap' lá em cima já faz o trabalho */
     background-color: #abd;
+    padding: 0.5rem;
+    text-align: center;
 }

@@ -1,0 +1,12 @@
+Data: 2026-05-29 -Cliente: ruan7366, Telefone: +55 19 99888-8400
+Data: 2026-05-29 -Cliente: edn567, Telefone: 55 19 98999-9855
+Data: 2026-05-29 -Cliente: dan5835, Telefone: +55 19 99788-7906
+Data: 2026-05-29 -Cliente: 83592deb, Telefone: +55 15 99827-6197
+Data: 2026-05-29 -Cliente: deh82878, Telefone: +55 19 98144-1319
+Data: 2026-05-29 -Cliente: silm7474, Telefone: +55 19 97421-9174
+Data: 2026-05-29 -Cliente: ruan7366, Telefone: +55 19 99888-8400
+Data: 2026-05-29 -Cliente: edn567, Telefone: 55 19 98999-9855
+Data: 2026-05-29 -Cliente: dan5835, Telefone: +55 19 99788-7906
+Data: 2026-05-29 -Cliente: 83592deb, Telefone: +55 15 99827-6197
+Data: 2026-05-29 -Cliente: deh82878, Telefone: +55 19 98144-1319
+Data: 2026-05-29 -Cliente: silm7474, Telefone: +55 19 97421-9174
