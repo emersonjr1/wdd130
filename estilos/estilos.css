@@ -98,6 +98,7 @@ aside h2 {
 }
 
 footer { 
+    position: relative;
     color: var(--text-color);
     margin-top: 15px;
     border-top: var(--border-1s-black) ;
