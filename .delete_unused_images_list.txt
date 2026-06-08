@@ -1,0 +1,14 @@
+Files proposed for deletion:
+wwr/imagens/rafting65_600.jpg
+wwr/imagens/rafting58_600.jpg
+wwr/imagens/rafting56_600.jpg
+wwr/imagens/rafting53_600.jpg
+wwr/imagens/rafting47_600.jpg
+wwr/imagens/rafting26_600.jpg
+wwr/imagens/rafting22_600.jpg
+wwr/imagens/rafting15_1024.jpg
+wwr/imagens/rafting14_1024.jpg
+wwr/imagens/hero_transparency_1024.png
+semana04/imagens/devtools-botao-responsivo.jpg
+
+Run verification before deleting.
