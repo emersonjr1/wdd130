@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site da empresa Splash Rafting, os melhores rafting da regiao">
+    <meta name="author" content="Emerson M. Junior">
+    <title>Sobre Nós Splash Rafting</title>
+    <link rel="stylesheet" href="estilos/contato.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="imagens/z-splash.png" alt="Logotipo da Splash Rafting">
+        <nav>
+            <a href="../index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="infos-empresa">
+            <h1>Companhia de Rafting em Corredeiras</h1>
+            <p>123 Rua Principal do Rio</p>
+            <p>Foz do Iguaçu</p>
+            <p>+ 49 99999-9999</p>
+            <p>info@correiras.com</p>
+        </div>
+
+        <div class="div_pai_forms">
+            <div class="bloco-imagem">
+                <img class="img_sect1" src="imagens/foz.jpg" alt="Corredeiras de Foz do Iguaçu">
+            </div>
+            <div class="bloco-formulario">
+                <form action="#" method="POST">
+                    <div class="campo-texto">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="campo-texto">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    
+                    <fieldset>
+                        <legend>Propósito da Mensagem</legend>
+                        <div class="opcao-radio">
+                            <input type="radio" name="proposito" id="duv_ger" value="geral" required> 
+                            <label for="duv_ger">Dúvida Geral</label>
+                        </div>
+                        <div class="opcao-radio">
+                            <input type="radio" name="proposito" id="perg_res" value="reserva"> 
+                            <label for="perg_res">Pergunta sobre Reserva</label>
+                        </div>
+                        <div class="opcao-radio">
+                            <input type="radio" name="proposito" id="perg_sug" value="sugestao"> 
+                            <label for="perg_sug">Sugestão</label>
+                        </div>
+                    </fieldset>
+                    
+                    <div class="campo-texto">
+                        <label for="msg">Mensagem</label>
+                        <textarea name="msg" id="msg" rows="5" required></textarea>
+                    </div>
+
+                    <div class="opcao-checkbox">
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        <label for="newsletter">Por favor, me inscreva na newsletter mensal</label>
+                    </div>
+
+                    <button type="submit">Entrar em Contato</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="section2">
+            <h2>Estamos Aqui para Servi-lo</h2>
+            <div class="div_section2">
+                <figure>
+                    <img src="imagens/beautiful-young-businesswoman-smiling-camera.jpg" alt="Boat na corredeira">
+                    <figcaption>Nome: Ana Souza — Cargo: Guia de Rafting</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/istockphoto-1399395748-1024x1024.jpg" alt="Equipe se molhando">
+                    <figcaption>Nome: Juliana F. — Cargo: Instrutor</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/istockphoto-1587604256-1024x1024.jpg" alt="Equpe aguardando queda d'agua">
+                    <figcaption>Nome: Marina Costa — Cargo: Operações</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/smiling-african-american-man-posing-library.jpg" alt="Equipe se divertindo">
+                    <figcaption>Nome: Rafael Gomes — Cargo: Atendimento ao Cliente</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/smiling-man-standing-building-looking-straight-camera.jpg" alt="Imagem de um lugar calmo">
+                    <figcaption>Nome: Pedro Lima — Cargo: Fotógrafo</figcaption>
+                </figure>
+            </div>
+        </section>            
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>© 2026 Splash Rafting | Emerson Jr.</p>
+            <nav class="socialmedia redes-sociais">
+                <a href="https://facebook.com"><img src="imagens/facebook_220200.png" alt="Icone o facebook"></a>
+                <a href="https://linkedin.com"><img src="imagens/linkedin_3536505.png" alt="Icone do linkedin"></a>
+                <a href="https://instagram.com"><img src="imagens/instagram_3955027.png" alt="Icone do Instagram"></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

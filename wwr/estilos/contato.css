@@ -1,0 +1,233 @@
+:root {
+    --cor-primaria: #2a7a2a; 
+    --cor-secundaria: #f7cca8;
+    --cor-destaque1: #1a3b4c; 
+    --cor-destaque2: #d4a843; 
+    --fonte-titulo: "Times New Roman", "Georgia", serif;
+    --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-body);
+    color: var(--cor-destaque1);
+    background-color: #fcfcfc;
+}
+
+header, main, footer {
+    width: 850px;
+    margin: 0 auto;
+}
+
+/* --- Cabeçalho --- */
+header {
+    background-color: #0d2a5e; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: var(--cor-secundaria);
+}
+
+/* --- Conteúdo Principal --- */
+.infos-empresa {
+    text-align: center;
+    margin: 30px 0;
+}
+
+h1, h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-destaque1);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.infos-empresa p {
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+/* --- Seção Formulário e Imagem Lado a Lado --- */
+.div_pai_forms {
+    display: flex;
+    align-items: stretch; /* Garante que os dois lados tenham alturas equilibradas */
+    gap: 30px;
+    margin: 40px 16px;
+}
+
+.bloco-imagem, .bloco-formulario {
+    flex: 1; /* Divide o espaço meio a meio */
+}
+
+.img_sect1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a foto preencher o bloco sem distorcer */
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Estilização Avançada do Formulário --- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo-texto label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.campo-texto input, .campo-texto textarea {
+    width: 100%;
+    padding: 10px; /* Cria o espaço interno entre o texto e a borda */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: var(--fonte-body);
+    font-size: 15px;
+}
+
+/* Uso correto da tag Fieldset estruturada */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+fieldset legend {
+    font-weight: bold;
+    padding: 0 8px;
+    font-size: 15px;
+}
+
+.opcao-radio, .opcao-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.opcao-radio input, .opcao-checkbox input {
+    width: 18px; /* Aumenta ligeiramente os botões de rádio e checkbox */
+    height: 18px;
+    cursor: pointer;
+}
+
+form button {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button:hover {
+    background-color: #1e5a1e;
+}
+
+/* --- Seção de Galeria Inferior --- */
+.section2 {
+    margin: 40px 16px;
+}
+
+.section2 h2{
+    text-align: center;
+}
+
+.div_section2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 20px;
+    gap: 12px;
+    background-color: var(--cor-destaque1);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.div_section2 figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div_section2 img {
+    height: 90px;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.div_section2 figcaption {
+    margin-top: 8px;
+    font-size: 10px;
+    color: white;
+    line-height: 1.2;
+}
+
+/* --- Rodapé --- */
+footer {
+    background-color: var(--cor-destaque1);
+    color: white;
+    padding: 15px 20px;
+    margin-top: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
