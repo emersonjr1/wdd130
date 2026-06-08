@@ -253,6 +253,15 @@ footer img {
     border-bottom: 2px solid black;
     align-items: center;
     padding-bottom: 10px;
+    color: white;
+}
+
+.cabecalho, .cabecalho * {
+    color: white !important;
+}
+
+.cabecalho a {
+    color: white !important;
 }
 
 .section1 {
@@ -289,6 +298,11 @@ footer img {
     background-color: var(--cor-destaque1);
     padding: 15px;
     border-radius: 6px;
+    color: white;
+}
+
+.div_section2, .div_section2 * {
+    color: white !important;
 }
 
 .div_section2 img {
